@@ -1,0 +1,49 @@
+Testing parameters:
+
+Service:
+java gov.va.vinci.bc.Service -serviceConfigFile=config/ServiceConfig.groovy -pipeline=gov.va.vinci.leo.bladder.pipeline.GradePipeline -pipeline=gov.va.vinci.leo.bladder.pipeline.InvasionTypePipeline -pipeline=gov.va.vinci.leo.bladder.pipeline.DepthOfInvasionPipeline
+
+Client: 
+java gov.va.vinci.leo.bladder.Client
+-clientConfigFile=config/ClientConfig.groovy 
+-readerConfigFile=config/readers/FileCollectionReaderConfig.groovy -listenerConfigFile=config/listeners/SimpleXmiListenerConfig.groovy
+
+
+-Dlog4j.configuration=file:config.log4j.properties
+
+
+----------------------
+Available configs:
+----------------------
+
+Client VM options:
+-Djava.library.path="lib;"
+
+Client Program arguments:
+-clientConfigFile=config/ClientConfig.groovy
+
+-readerConfigFile=config/readers/SQLServerPagedDatabaseCollectionReaderConfig.groovy
+-readerConfigFile=config/readers/BatchDatabaseCollectionReaderConfig.groovy
+-readerConfigFile=config/readers/KnowtatorReaderConfig.groovy
+-readerConfigFile=config/readers/FileCollectionReaderConfig.groovy
+-readerConfigFile="config/readers/FlatAnnotationDatabaseReaderConfig.groovy"
+
+-listenerConfigFile=config/listeners/DatabaseListenerConfig.groovy
+-listenerConfigFile=config/listeners/LearningListenerConfig_notRelevant.groovy
+-listenerConfigFile=config/listeners/SimpleXmiListenerConfig.groovy
+-listenerConfigFile=config/listeners/RefStDatabaseListenerConfig.groovy
+-listenerConfigFile=config/listeners/KnowtatorListenerConfig.groovy
+-listenerConfigFile="config/listeners/FeatureAuSummaryListener.groovy"
+-listenerConfigFile="config/listeners/FeatureAuCsvListener.groovy"
+-listenerConfigFile=config/listeners/LearningListenerConfig.groovy
+
+
+
+
+Service program arguments:
+-serviceConfigFile=config/ServiceConfig.groovy
+-pipeline=gov.va.vinci.leo.bladder.pipeline.GradePipeline
+-pipeline=gov.va.vinci.leo.bladder.pipeline.InvasionTypePipeline
+-pipeline=gov.va.vinci.leo.bladder.pipeline.DepthOfInvasionPipeline
+-pipeline=gov.va.vinci.leo.bladder.pipeline.HistologyPipeline
+-pipeline=gov.va.vinci.leo.bladder.pipeline.StagePipeline

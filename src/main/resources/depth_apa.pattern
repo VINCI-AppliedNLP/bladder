@@ -1,0 +1,13 @@
+\bno(\s*evidence)?(\s*of)?\s*<gov.va.vinci.leo.bladder.types.InvasionDepthMuscle/>
+\bno(\s*evidence)?(\s*of)?\s*<gov.va.vinci.leo.bladder.types.InvasionDepthOther/>
+\bno(\s*evidence)?(\s*of)?\s*<gov.va.vinci.leo.bladder.types.InvasionDepthSuperficial/>
+\bno(\s*evidence)?(\s*of)?\s*<gov.va.vinci.leo.bladder.types.InvasionDepth/>
+\bno(\s*evidence)?(\s*of)?\s*(\w+\s*)<gov.va.vinci.leo.bladder.types.InvasionDepthMuscle/>
+\bno(\s*evidence)?(\s*of)?\s*(\w+\s*)<gov.va.vinci.leo.bladder.types.InvasionDepthSuperficial/>
+\bno(\s*evidence)?(\s*of)?\s*(\w+\s*)<gov.va.vinci.leo.bladder.types.InvasionDepthOther/>
+\bno(\s*evidence)?(\s*of)?\s*(\w+\s*)(\w+\s*)<gov.va.vinci.leo.bladder.types.InvasionDepth/>
+(post|pre)operative\\s*diagnosis:\\s*<gov.va.vinci.leo.bladder.types.InvasionDepthMuscle/>
+(post|pre)operative\\s*diagnosis:\\s*<gov.va.vinci.leo.bladder.types.InvasionDepthSuperficial/>
+(post|pre)operative\\s*diagnosis:\\s*<gov.va.vinci.leo.bladder.types.InvasionDepthOther/>
+(post|pre)operative\\s*diagnosis:\\s*<gov.va.vinci.leo.bladder.types.InvasionDepth/>
+addressing\s*<gov.va.vinci.leo.bladder.types.InvasionDepthMuscle/>

@@ -1,0 +1,4 @@
+\bno(\s*evidence)?(\s*of)?\s*<gov.va.vinci.leo.bladder.types.Histology/>
+\bno(\s*evidence)?(\s*of)?\s*(\w+\s*)<gov.va.vinci.leo.bladder.types.Histology/>
+\bno(\s*evidence)?(\s*of)?\s*(\w+\s*)(\w+\s*)<gov.va.vinci.leo.bladder.types.Histology/>
+history\s*(\s*of)?\s*(\w+\s*)(\w+\s*)<gov.va.vinci.leo.bladder.types.Histology/>

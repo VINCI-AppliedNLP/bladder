@@ -1,0 +1,51 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+     MEDICAL RECORD |                   SURGICAL PATHOLOGY
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                              PATHOLOGY REPORT
+Lab: LAB ADDRESS  ACC No.:NUMBER
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+$TEXT
+Submitted by: PROVIDER NAME                       Date obtained: DATE
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Specimen (Received TIMESTAMP):
+A. BLADDER TUMOR LEFT LATERAL WALL
+B. BLADDER TUMOR DEEP BITE LEFT LATERAL WALL
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+BRIEF CLINICAL HISTORY:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+PREOPERATIVE DIAGNOSIS:
+     BLADDER TUMOR 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+OPERATIVE FINDINGS:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+POSTOPERATIVE DIAGNOSIS:
+     BLADDER TUMOR 
+
+                           Surgeon/physician: PROVIDER NAME MD
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                              PATHOLOGY REPORT
+Lab:LAB ADDRESS  ACC No.:NUMBER
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                               Pathology Resident: PROVIDER NAME
+
+Gross description:
+     A.  Specimen A is labeled left lateral wall bladder tumor - received
+     in formalin is a 3.0 x 2.5 x 0.8 cm aggregate of tan soft tissue
+     fragments.  The specimen is entirely submitted in 1 cassette. 
+      B.  Specimen B is labeled bladder tumor left lateral wall - received
+     in formalin is 1.0 x 0.8 x 0.4 cm fragment of tan soft tissue.  The
+     specimen is entirely submitted in 1 cassette. 
+
+Microscopic description/diagnosis:
+     DX:  A - BLADDER TUMOR LEFT LATERAL WALL, TURB:  LOW-GRADE PAPILLARY 
+          TRANSITIONAL CELL CARCINOMA.  NO INVASION (Ta). MUSCULARIS 
+          PROPRIA IS PRESENT, BUT NOT INVOLVED BY TUMOR.  
+      
+     DX:  B - BLADDER TUMOR DEEP BITE LEFT LATERAL WALL, TURB:  LOW-GRADE 
+          PAPILLARY TRANSITIONAL CELL CARCINOMA.  NO INVASION (Ta). 
+          MUSCULARIS PROPRIA IS PRESENT, BUT NOT INVOLVED BY TUMOR.  
+      
+          (REVIEWED BY DR. PROVIDER, WHO CONCURRED WITH THE DIAGNOSIS)
+                       DR. PROVIDER NOTIFIED DATE
