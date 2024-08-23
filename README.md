@@ -2,6 +2,18 @@
 
 This repository contains an NLP system for the Bladder Cancer project with Dr. Florian Schroeck. The system is designed to extract key clinical concepts from pathology reports related to bladder cancer. The system uses Java 8 and UIMA AS 2.6.0.
 
+## Citation
+If you use this code, please cite the following paper:
+
+Florian R. Schroeck, Olga V. Patterson, Patrick R. Alba, Erik A. Pattison, John D. Seigne, Scott L. DuVall, Douglas J. Robertson, Brenda Sirovich, Philip P. Goodney,
+Development of a Natural Language Processing Engine to Generate Bladder Cancer Pathology Data for Health Services Research,
+Urology,
+Volume 110,
+2017,
+Pages 84-91,
+ISSN 0090-4295,
+https://doi.org/10.1016/j.urology.2017.07.056
+
 ## System Logic
 
 The system processes pathology reports to extract and validate various clinical concepts related to bladder cancer. It utilizes several pipelines tailored to specific extraction tasks, including:
@@ -45,14 +57,3 @@ To run the system, use the following pipelines as needed:
 -pipeline=gov.va.vinci.leo.bladder.pipeline.StagePipeline
 ```
 
-## Citation
-If you use this code, please cite the following paper:
-
-Florian R. Schroeck, Olga V. Patterson, Patrick R. Alba, Erik A. Pattison, John D. Seigne, Scott L. DuVall, Douglas J. Robertson, Brenda Sirovich, Philip P. Goodney,
-Development of a Natural Language Processing Engine to Generate Bladder Cancer Pathology Data for Health Services Research,
-Urology,
-Volume 110,
-2017,
-Pages 84-91,
-ISSN 0090-4295,
-https://doi.org/10.1016/j.urology.2017.07.056
